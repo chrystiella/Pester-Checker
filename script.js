@@ -72,7 +72,7 @@ function updateFeedback(strength) {
   const strengthLevels = ["Very Weak", "Weak", "Okay", "Good", "Strong", "Very Strong"];
   strengthText.textContent = strengthLevels[strength.score - 1] || "Very Weak";
 
-  suggestions.innerHTML = ""; // Clear previous suggestions
+  suggestions.innerHTML = ""; 
   strength.feedback.forEach((item) => {
     const listItem = document.createElement("li");
     listItem.textContent = item;

@@ -60,12 +60,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-## 📸 Screenshots  
-
-![Screenshot of Pester Checker](image.png)  
-
----
-
 ## 🤝 Contributing  
 
 Contributions are welcome! 🎉  

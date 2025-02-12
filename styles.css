@@ -2,8 +2,9 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Ensure content stacks vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
   height: 100vh;
   font-family: 'Roboto', Arial, sans-serif;
   background: linear-gradient(to bottom right, #4b79a1, #283e51);
@@ -18,6 +19,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 400px;
+  margin-top: auto; /* Allow space for footer */
 }
 
 h1 {
@@ -96,4 +98,30 @@ h2 {
     padding: 20px;
     width: 90%;
   }
+}
+
+/* Contact Footer */
+.contact {
+  text-align: center;
+  margin-top: auto; /* Pushes footer to the bottom */
+  padding: 20px; /* Increased padding for better spacing */
+  font-size: 14px;
+  background-color: #283e51;
+  color: #fff;
+  width: 100%;
+  border-top: 2px solid #4b79a1;
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Horizontally center text */
+  align-items: center; /* Vertically center text */
+  box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+.contact a {
+  color: #4b79a1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
